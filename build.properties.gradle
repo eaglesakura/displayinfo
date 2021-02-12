@@ -1,8 +1,8 @@
 // Project settings.
 ext {
-    artifact.base_version = "1.5"
+    artifact.base_version = "1.0"
     artifact.base_group = "io.github.eaglesakura"
-    mavencentral.pom_description = "Android/Kotlin Jetpack extension library."
+    mavencentral.pom_description = "Android display hardware information Library."
 
     mavencentral.vcs_url = "https://github.com/eaglesakura/${rootProject.name}"
     mavencentral.license_name = "MIT"

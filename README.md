@@ -1,15 +1,19 @@
-# What is this repository?
+# What is this Library?
 
-Library for android applications with Kotlin.
+`DisplayInfo` is a library for getting display information.
 
-armyknife is small library, but it can be more small.
-If you have to shrink to application, then proguard-options set to enable.
+# Example
 
-# how to implementation into your project
+```kotlin
+val info = DisplayInfo.newInstance(context)
+Log.d("DisplayInfo", "${info.widthPixel} x ${info.heightPixel}, ${info.dpi} dpi")
+```
+
+# How to Install
 
 ```groovy
 // /app/build.gradle
 dependencies {
-    implementation 'io.github.eaglesakura.armyknife-jetpack:armyknife-jetpack:${replace version}'
+    implementation 'io.github.eaglesakura.displayinfo:displayinfo:${replace version}'
 }
 ```

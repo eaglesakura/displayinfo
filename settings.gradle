@@ -1,2 +1,1 @@
-include(":armyknife-jetpack-dependencies")
-include(":armyknife-jetpack")
+include(":displayinfo")

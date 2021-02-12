@@ -1,6 +1,0 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          xmlns:tools="http://schemas.android.com/tools"
-          package="com.eaglesakura.armyknife.jetpack.dependencies">
-
-    <uses-sdk tools:overrideLibrary="androidx.car,androidx.security,androidx.wear,androidx.heifwriter" />
-</manifest>
