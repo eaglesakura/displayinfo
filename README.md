@@ -14,6 +14,6 @@ Log.d("DisplayInfo", "${info.widthPixel} x ${info.heightPixel}, ${info.dpi} dpi"
 ```groovy
 // /app/build.gradle
 dependencies {
-    implementation 'io.github.eaglesakura.displayinfo:displayinfo:${replace version}'
+    implementation 'io.github.eaglesakura.displayinfo:displayinfo:+'
 }
 ```
